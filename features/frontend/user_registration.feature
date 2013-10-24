@@ -53,5 +53,5 @@ Feature: User registration
             | Verification | bar          |
           And I press "Register"
          Then I should be on registration page
-          And I should see "Please enter your first name"
-          And I should see "Please enter your last name"
+          And I should see "Please enter first name"
+          And I should see "Please enter last name"

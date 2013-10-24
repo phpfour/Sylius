@@ -78,5 +78,5 @@ Feature: Checkout security
             | fos_user_registration_form_plainPassword_first  | mikepass         |
             | fos_user_registration_form_plainPassword_second | mikepass         |
           And I press "Register"
-         Then I should see "Please enter your first name"
-          And I should see "Please enter your last name"
+         Then I should see "Please enter first name"
+          And I should see "Please enter last name"
